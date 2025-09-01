@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"cse331-project\startup_stm32f103xb.o"
+"cse331-project\fonts.o"
+"cse331-project\ssd1306.o"
+"cse331-project\main.o"
+"cse331-project\stm32f1xx_it.o"
+"cse331-project\stm32f1xx_hal_msp.o"
+"cse331-project\stm32f1xx_hal_gpio_ex.o"
+"cse331-project\stm32f1xx_hal_i2c.o"
+"cse331-project\stm32f1xx_hal.o"
+"cse331-project\stm32f1xx_hal_rcc.o"
+"cse331-project\stm32f1xx_hal_rcc_ex.o"
+"cse331-project\stm32f1xx_hal_gpio.o"
+"cse331-project\stm32f1xx_hal_dma.o"
+"cse331-project\stm32f1xx_hal_cortex.o"
+"cse331-project\stm32f1xx_hal_pwr.o"
+"cse331-project\stm32f1xx_hal_flash.o"
+"cse331-project\stm32f1xx_hal_flash_ex.o"
+"cse331-project\stm32f1xx_hal_exti.o"
+"cse331-project\stm32f1xx_hal_tim.o"
+"cse331-project\stm32f1xx_hal_tim_ex.o"
+"cse331-project\system_stm32f1xx.o"
+--strict --scatter "CSE331-Project\CSE331-Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CSE331-Project.map" -o CSE331-Project\CSE331-Project.axf
